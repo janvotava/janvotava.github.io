@@ -2,7 +2,29 @@ apiVersion: v1
 entries:
   helm-cronjobs:
   - apiVersion: v2
-    created: "2023-07-12T14:46:22.983806+07:00"
+    created: "2023-07-12T15:50:07.976+07:00"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.4.0
+    description: A chart for cron jobs
+    digest: 2fa721dbb4da85a2fac3e41baf943eb9038b8aee1cf1ac2efbff2d02dd07012f
+    home: https://github.com/janvotava/helm-cronjobs
+    keywords:
+    - cron
+    maintainers:
+    - email: bambash256@gmail.com
+      name: bambash
+    - email: votava@gmail.com
+      name: Jan Votava
+    name: helm-cronjobs
+    sources:
+    - https://github.com/janvotav/helm-cronjobs.git
+    urls:
+    - helm-cronjobs-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    created: "2023-07-12T15:50:07.973247+07:00"
     description: A chart for cron jobs
     digest: 7e25795b4201d0ccc214de5622a32429cacdc80e5d8c57bff9fbfac6fb6db5dc
     home: https://github.com/bambash
@@ -17,4 +39,4 @@ entries:
     urls:
     - helm-cronjobs-1.0.1.tgz
     version: 1.0.1
-generated: "2023-07-12T14:46:22.980623+07:00"
+generated: "2023-07-12T15:50:07.971783+07:00"
